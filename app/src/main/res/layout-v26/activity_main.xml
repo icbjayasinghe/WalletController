@@ -116,7 +116,9 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:outlineSpotShadowColor="@color/cardview_shadow_end_color">
 
                 <TextView
                     android:id="@+id/textView"
